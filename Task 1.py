@@ -11,8 +11,9 @@ sum = 0
 for i in range(n):
     if i % 2 !=0:
         sum += nums[i]
+        print(f'Элементы на нечетных позициях {nums[i]}')    
     else:
-        sum    
+        sum 
 print(f'Сумма элементов на нечетных позициях {sum}')       
 
 
